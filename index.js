@@ -4,6 +4,6 @@ function doToElementsInArray(arr, call) {
 }
 
 // Add your changeCompletely() function here:
-function changeCompletely() {
-
+function changeCompletely(elm, idx, arr) {
+  arr[idx] = Math.floor(Math.random() * 100 + 2).toString() + ` ${arr[idx]}s!!!`;
 }
